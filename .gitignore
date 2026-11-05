@@ -24,3 +24,19 @@ data/
 Thumbs.db
 .vscode/
 .idea/
+
+
+# Environment-specific files
+.env.*
+!.env.example
+
+# Credentials and secrets
+credentials/
+secrets/
+*.p12
+*.pfx
+
+# Local databases
+*.db
+*.sqlite
+
